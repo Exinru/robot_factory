@@ -28,7 +28,7 @@ The coding byte is a value that describes the type of parameter that are given.
   A byte that is divided in pairs of bits that represents Param1, Param2, Param3 & Param4.
   **Pairs of bits:** register -> **01**, direct -> **10**,  indirect -> **11**, otherwise -> **00**
 <img src="images/coding-byte.png">
-<i>Example</i>: r2, 2, %34 -> coding byte = **01 11 10 00**
+<i>Example</i>: r2, 2, %34 -> coding byte = **01** **11** **10** **00**
 
 - **Transcription:**
   - Instruction code (**mnemonic**): example -> live = **0x01**
